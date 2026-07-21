@@ -49,18 +49,11 @@
 - [ ] Invalid command handling
 - [ ] Edge case handling
 
-### Requirements
-
-- C++ Compiler
-- CMake
-- Linux
-
-### Build & Run
+### Try it
 
 ```sh
 git clone https://github.com/tisupe/Needle
-cd Needle
-cmake -S . -B $(BUILD_DIR)
-cmake --build $(BUILD_DIR)
-./$(BUILD_DIR)/$(TARGET)
+cd Needle ; cd build
+chmod +x Needle
+./Needle
 ```

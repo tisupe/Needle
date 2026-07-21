@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/Needle.dir/link.d CMakeFiles/Needle.dir/src/main.cpp.o -o Needle
