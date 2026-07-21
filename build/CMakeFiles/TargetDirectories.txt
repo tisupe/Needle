@@ -1,3 +1,0 @@
-/home/tisupe/Git/Needle/build/CMakeFiles/Needle.dir
-/home/tisupe/Git/Needle/build/CMakeFiles/edit_cache.dir
-/home/tisupe/Git/Needle/build/CMakeFiles/rebuild_cache.dir
