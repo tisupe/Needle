@@ -1,21 +1,14 @@
 # Needle
 
-An experimental Unix-like shell written in **C++**, built to learn how UNIX processes, job control, pipes, file descriptors, and shell parsing work under the hood.
+An experimental Unix-like shell written in **C++**, built to understand UNIX processes, shell parsing, job control, pipes, and file descriptors by implementing them from scratch.
 
 ## Features
 
 ### Core Shell
-- Interactive REPL with custom shell prompt
+- Interactive REPL
+- Custom shell prompt
 - Built-in commands
-  - `cd`
-  - `pwd`
-  - `echo`
-  - `exit`
-  - `type`
-  - `history`
-  - `jobs`
-  - `declare`
-- Execute external programs using `PATH` lookup
+- Execute external programs using `PATH`
 
 ### Parsing
 - Single & double quotes
@@ -49,11 +42,17 @@ An experimental Unix-like shell written in **C++**, built to learn how UNIX proc
 - Invalid command handling
 - Edge case handling
 
-### Try it
+## Try it
 
 ```sh
 git clone https://github.com/tisupe/Needle
-cd Needle ; cd build
-chmod +x Needle
+cd Needle
+
+mkdir build
+cd build
+
+cmake ..
+make
+
 ./Needle
 ```
