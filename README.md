@@ -1,6 +1,6 @@
 # Needle
 
-An experimental Unix-like shell written in **C++**, built to understand UNIX processes, shell parsing, job control, pipes, and file descriptors by implementing them from scratch.
+An Unix-like shell written in **C++**, built to understand UNIX processes, shell parsing, job control, pipes, and file descriptors by implementing them from scratch.
 
 ## Features
 
@@ -8,7 +8,7 @@ An experimental Unix-like shell written in **C++**, built to understand UNIX pro
 - Interactive REPL
 - Custom shell prompt
 - Built-in commands
-- Execute external programs using `PATH`
+- External Programs
 
 ### Parsing
 - Single & double quotes

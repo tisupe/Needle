@@ -1,0 +1,109 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Moss"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	},
+	"compileGroups" : 
+	[
+		{
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		}
+	],
+	"id" : "Moss::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"language" : "CXX"
+	},
+	"name" : "Moss",
+	"nameOnDisk" : "Moss",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"path" : "src/handler.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"path" : "src/inbuilt.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}
