@@ -27,6 +27,7 @@ inline bool checkInbuilt(const std::string &command) {
 }
 
 inline void execute_exit(const std::vector<std::string> &parseArguments) {
+    (void)parseArguments;
     exit(0);
 }
 
@@ -63,6 +64,7 @@ inline void execute_type(const std::vector<std::string> &parseArguments) {
 }
 
 inline void execute_pwd(const std::vector<std::string> &parseArguments) {
+    (void)parseArguments;
     try{
     std::filesystem::path working_dir = std::filesystem::current_path();
     std::cout << working_dir.string() << "\n";

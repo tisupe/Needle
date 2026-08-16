@@ -1,6 +1,6 @@
 # Needle
 
-An Unix-like shell written in **C++**, built to understand UNIX processes, shell parsing, job control, pipes, and file descriptors by implementing them from scratch.
+An Unix-like shell written in C++, built to understand UNIX processes, shell parsing, job control, pipes, and file descriptors by implementing them from scratch.
 
 ## Features
 

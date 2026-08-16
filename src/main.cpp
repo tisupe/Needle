@@ -18,7 +18,7 @@ int main() {
         string parseCommand = parseArguments[0];
         bool isInbuilt = checkInbuilt(parseCommand);
 
-        if (inBuilt.count(parseCommand)) {
+        if (isInbuilt) {
             inBuilt[parseCommand](parseArguments);
         } else {
             string execPath = checkExecutable(parseCommand);
