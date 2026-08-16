@@ -47,12 +47,6 @@ An Unix-like shell written in C++, built to understand UNIX processes, shell par
 ```sh
 git clone https://github.com/tisupe/Needle
 cd Needle
-
-mkdir build
-cd build
-
-cmake ..
 make
-
-./Needle
+./build/needle
 ```
