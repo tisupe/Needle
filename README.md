@@ -48,5 +48,5 @@ An Unix-like shell written in C++, built to understand UNIX processes, shell par
 git clone https://github.com/tisupe/Needle
 cd Needle
 make
-./build/needle
+./build/Needle
 ```
